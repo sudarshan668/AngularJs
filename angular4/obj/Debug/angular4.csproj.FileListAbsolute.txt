@@ -1,0 +1,6 @@
+E:\Software\Sudarshan\Angular\Angular\angular4\bin\angular4.dll.config
+E:\Software\Sudarshan\Angular\Angular\angular4\bin\angular4.dll
+E:\Software\Sudarshan\Angular\Angular\angular4\bin\angular4.pdb
+E:\Software\Sudarshan\Angular\Angular\angular4\obj\Debug\angular4.csprojResolveAssemblyReference.cache
+E:\Software\Sudarshan\Angular\Angular\angular4\obj\Debug\angular4.dll
+E:\Software\Sudarshan\Angular\Angular\angular4\obj\Debug\angular4.pdb

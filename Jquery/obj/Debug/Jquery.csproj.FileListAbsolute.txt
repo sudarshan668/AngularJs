@@ -1,0 +1,7 @@
+E:\Software\Sudarshan\Angular\Angular\Jquery\bin\Jquery.dll.config
+E:\Software\Sudarshan\Angular\Angular\Jquery\bin\Jquery.dll
+E:\Software\Sudarshan\Angular\Angular\Jquery\bin\Jquery.pdb
+E:\Software\Sudarshan\Angular\Angular\Jquery\obj\Debug\Jquery.dll
+E:\Software\Sudarshan\Angular\Angular\Jquery\obj\Debug\Jquery.pdb
+E:\Software\Sudarshan\Angular\Angular\Jquery\obj\Debug\Jquery.csprojAssemblyReference.cache
+E:\Software\Sudarshan\Angular\Angular\Jquery\obj\Debug\Jquery.csproj.CoreCompileInputs.cache
