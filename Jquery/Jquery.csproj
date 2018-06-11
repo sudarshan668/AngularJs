@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,7 +67,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\materialize.css" />
+    <Content Include="css\materialize.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="formelement.html" />
+    <Content Include="Home.html" />
     <Content Include="jquery.html" />
+    <Content Include="js\init.js" />
+    <Content Include="js\materialize.js" />
+    <Content Include="js\materialize.min.js" />
     <Content Include="main.js" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
