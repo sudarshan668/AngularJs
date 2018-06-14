@@ -3,5 +3,4 @@ E:\Software\Sudarshan\Angular\Angular\Angular\bin\Angular.dll
 E:\Software\Sudarshan\Angular\Angular\Angular\bin\Angular.pdb
 E:\Software\Sudarshan\Angular\Angular\Angular\obj\Debug\Angular.dll
 E:\Software\Sudarshan\Angular\Angular\Angular\obj\Debug\Angular.pdb
-E:\Software\Sudarshan\Angular\Angular\Angular\obj\Debug\Angular.csprojAssemblyReference.cache
 E:\Software\Sudarshan\Angular\Angular\Angular\obj\Debug\Angular.csproj.CoreCompileInputs.cache

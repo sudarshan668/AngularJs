@@ -3,34 +3,35 @@
 /// <reference path="angular.min.js" />
 
 
-//var myApp = angular.module("myModule", ['ngRoute']).controller("myController", function ($scope, $http) {
+var myApp = angular.module("myModule", ['ngRoute']).controller("myController", function ($scope, $http) {
 
-//    $http.get('WebService1.asmx/GetCompanys').then(function (response) {
-//        $scope.newdata = response.data;
-//    });
-
-
-
-
-
-//    $scope.emp =
-//        {
-//            FirstName: "Sudarshan",
-//            LastName: "Sonawane",
-//            Age: 18
-
-//        };
+    $http.post('WebService1.asmx/GetCompanys').then(function (response) {
+        $scope.newdata = response.data;
+    });
 
 
 
 
 
-//});
+    $scope.emp =
+        {
+            FirstName: "Sudarshan",
+            LastName: "Sonawane",
+            Age: 18
 
-var myApp = angular.module('myModule', ['ngRoute']);
+        };
+
+
+
+
+
+});
+
+//var myApp = angular.module('myModule', ['ngRoute']);
        myApp.config(function ($routeProvider) {
     $routeProvider.when('/', {
-        templateUrl: 'views/home.html'
+        templateUrl: 'views/home.html',
+        controller: 'myController',
     })
 
 	.when('/aboutme', {

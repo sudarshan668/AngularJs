@@ -1,13 +1,45 @@
 ﻿<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+    <div class="" >
         <br><br>
         <h1 class="header center orange-text">Home</h1>
         <div class="row center">
             <h5 class="header col s12 light">A modern responsive front-end framework</h5>
         </div>
-        <div class="row center">
-            <a href="" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        <div class="row center " >
+            <!--<a href="" id="download-button" class="btn-large waves-effect waves-light orange">sid</a>-->
+            <table style="width:100%">
+                <tr>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>pan</th>
+                    <th>gst</th>
+                    <th>contact</th>
+                    <th>com_address </th>
+                    <th>bank_name</th>
+                    <th>Acc_name</th>
+                    <th>Acc_number</th>
+                    <th>ifsc_number</th>
+                </tr>
+                <tr ng-repeat="CU in newdata">
+                    <td>{{CU.name}}</td>
+                    <td>{{CU.email}}</td>
+                    <td>{{CU.pan}}</td>
+                    <td>{{CU.gst}}</td>
+                    <td>{{CU.contact}}</td>
+                    <td>{{CU.com_address}}</td>
+                    <td>{{CU.bank_name}}</td>
+                    <td>{{CU.Acc_name}}</td>
+                    <td>{{CU.Acc_number}}</td>
+                    <td>{{CU.ifsc_number}}</td>
+                </tr>
+                <!--<tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>-->
+            </table>
         </div>
         <br><br>
+        
     </div>
 </div>
