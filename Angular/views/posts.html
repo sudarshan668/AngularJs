@@ -1,48 +1,47 @@
 ﻿<div class="col s6 offset-s3">
-    <div class="card-panel" ng-model="emp">
-        <h1>Details-{{emp.Page}}</h1>
-        <div class="input-field col s6">
-            <i class="material-icons prefix">account_circle</i>
-            <input id="first_name" type="text" class="validate">
-            <label for="first_name">First Name</label>
+    <form class="myform">
+        <div class="card-panel" ng-model="emp">
+            <h1>Details-{{emp.Page}}</h1>
+            <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="first_name" type="text" class="validate" ng-required=""/>
+                <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+                <input type="text" id="LastName" name="LastName" class="validate" ng-required="" />
+                <label for="LastName">LastName</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+            </div>
+
+
+            <div class="input-field inline">
+                <input id="email_inline" type="email" class="validate" ng-required="" />
+                <label for="email_inline">Email</label>
+                <span class="helper-text" data-error="wrong" data-success="right"></span>
+            </div>
+
+            <div class="input-field col s12">
+                <!--<i class="material-icons prefix">mode_edit</i>-->
+                <textarea id="textarea1" class="materialize-textarea" data-length="120" ng-required=""></textarea>
+                <label for="textarea1">Textarea</label>
+            </div>
+
+            <div class="input-field col s12">
+                <p>
+                    <label>
+                        <input type="checkbox" ng-required="" />
+                        <span>term & Conditation</span>
+                    </label>
+                </p>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <input class="waves-effect waves-light btn" type="submit" ng-disabled="myform.$invalid" name="name" value="Submit " />
         </div>
-        <div class="input-field col s6">
-            <input type="text" id="LastName" name="LastName" class="validate" />
-            <label for="LastName">LastName</label>
-        </div>
-        <div class="input-field col s12">
-            <input id="password" type="password" class="validate">
-            <label for="password">Password</label>
-        </div>
-
-
-        <div class="input-field inline">
-            <input id="email_inline" type="email" class="validate">
-            <label for="email_inline">Email</label>
-            <span class="helper-text" data-error="wrong" data-success="right"></span>
-        </div>
-
-        <div class="input-field col s12">
-            <!--<i class="material-icons prefix">mode_edit</i>-->
-            <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
-            <label for="textarea1">Textarea</label>
-        </div>
-
-        <div class="input-field col s12">
-            <p>
-                <label>
-                    <input type="checkbox" />
-                    <span>term & Conditation</span>
-                </label>
-            </p>
-        </div>
-
-        <br />
-        <br />
-        <br />
-     <input class="waves-effect waves-light btn" type="button" name="name" value="Submit " />
-    </div>
-
-
-
-    </div>
+    </form>
+</div>
